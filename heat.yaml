@@ -2,11 +2,11 @@
 # This is a hello world HOT template just defining a single compute
 # server.
 #
-heat_template_version: 2015-05-23
+heat_template_version: 2013-05-23
 
 description: >
-  Nate Black.  
-  W251 Homework 3 in OpenStack.  
+  Hello world HOT template that just defines a single server.
+  Contains just base features to verify base HOT support.
 
 parameters:
   key_name:
