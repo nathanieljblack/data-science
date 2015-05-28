@@ -8,14 +8,14 @@ resources:
     properties:
       key_name: w251key
       admin_pass: stack
-      image: cirros-0.3.4-x86_64-uec
+      image: fedora-20.x86_64
       flavor: m1.small
   instance_b:
     type: OS::Nova::Server
     properties:
       key_name: w251key
       admin_pass: stack
-      image: cirros-0.3.4-x86_64-uec
+      image: fedora-20.x86_64
       flavor: m1.small
 
 
